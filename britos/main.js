@@ -86,3 +86,8 @@
 
   const ano = $('#ano'); if (ano) ano.textContent = new Date().getFullYear()
 })()
+// mostra cada foto assim que termina de carregar
+document.querySelectorAll('img.ux').forEach((img) => {
+  const done = () => img.classList.add('ok')
+  if (img.complete && img.naturalWidth) done(); else { img.addEventListener('load', done, { once: true }); img.addEventListener('error', done, { once: true }) }
+})

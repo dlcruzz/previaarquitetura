@@ -281,3 +281,6 @@ section { position: relative; }
 .quote-band .review a { color: #E6DCCD; text-underline-offset: 4px; }
 .gallery img, .service img, .about-photo img, .quote-band img, .hero-photo img { background: var(--reboco-2); }
 @media (max-width: 820px) { .quote-band .review { margin: 40px 0 48px; } }
+/* fotos: cor de fundo da própria foto enquanto carrega e entrada suave quando chega */
+img.ux { opacity: 0; transition: opacity .6s ease; }
+img.ux.ok { opacity: 1; }
