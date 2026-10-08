@@ -1,0 +1,24 @@
+SITE GEOVANNA CAIRES — prévia
+==============================
+
+Como subir na Vercel
+1. Entre em vercel.com > Add New > Project.
+2. Arraste esta pasta inteira (geovanna-caires-site) ou suba num repositório do GitHub e importe.
+3. Framework: "Other". Não precisa de build. Clique em Deploy.
+
+Depois que tiver o endereço final (ex.: britosarquitetura.com.br):
+- Troque "https://previaarquitetura.vercel.app/britos" pelo endereço real em: index.html (canonical, og:url, og:image e JSON-LD), robots.txt e sitemap.xml.
+- Cadastre o site no Google Search Console e envie o sitemap.xml.
+
+Arquivos
+- index.html   página única (SEO, dados estruturados de empresa local, Open Graph)
+- style.css    visual (cores e fontes da marca dela)
+- main.js      animações, filtro de projetos, galeria ampliada e menu do celular
+- img/         imagem de compartilhamento (og.jpg) e ícone; as fotos vêm da Unsplash pelo link
+- fonts/       fontes Tenor Sans e Jost, hospedadas no próprio site
+
+Para confirmar com o cliente antes de publicar
+- As fotos são ILUSTRATIVAS (Unsplash, uso livre), carregadas direto do site da Unsplash. Trocar pelas fotos dos projetos do escritório antes de publicar de verdade.
+- Textos de "Sobre", serviços e etapas foram escritos como prévia (não temos informação do escritório). Ajustar com o cliente.
+- WhatsApp (77) 99824-6276, endereço Av. Presidente Vargas, 560 e a avaliação 5,0 vieram do Google Maps.
+- Se o escritório tiver Instagram, logo e cores próprias, trocar no site.
