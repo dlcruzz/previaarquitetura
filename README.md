@@ -1,7 +1,9 @@
 # previaarquitetura
 
-Prévia de site da Zinkra para apresentar a clientes. O site da prévia atual fica na raiz e abre direto no endereço da Vercel.
+Prévias de sites da Zinkra para apresentar a clientes. Cada prévia fica numa pasta própria e abre em `/<pasta>/`.
 
-Prévia atual: **Brito's Arquitetura e Interiores** (Livramento de Nossa Senhora - BA).
+| Pasta | Cliente |
+|---|---|
+| `britos/` | Brito's Arquitetura e Interiores (Livramento de Nossa Senhora - BA) |
 
-Para uma prévia nova, os arquivos do novo site substituem os da raiz. A versão anterior continua no histórico de commits.
+Para uma prévia nova: crie uma pasta com o `index.html` e os arquivos do site, adicione uma linha nesta tabela e no `index.html` da raiz.

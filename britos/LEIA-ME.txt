@@ -7,7 +7,7 @@ Como subir na Vercel
 3. Framework: "Other". Não precisa de build. Clique em Deploy.
 
 Depois que tiver o endereço final (ex.: britosarquitetura.com.br):
-- Troque "https://previaarquitetura.vercel.app" pelo endereço real em: index.html (canonical, og:url, og:image e JSON-LD), robots.txt e sitemap.xml.
+- Troque "https://previaarquitetura.vercel.app/britos" pelo endereço real em: index.html (canonical, og:url, og:image e JSON-LD), robots.txt e sitemap.xml.
 - Cadastre o site no Google Search Console e envie o sitemap.xml.
 
 Arquivos
